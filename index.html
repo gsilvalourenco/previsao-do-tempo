@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./assets/millennium-falcon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="relogio">
+        <div class="caixa-relogio">
+            <span id="horas">00</span>
+            <span>:</span>
+            <span id="minutos">00</span>
+            <span>:</span>
+            <span id="segundos">00</span>
+        </div>
+    </div>
+
+
+    <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Digite o nome da cidade" type="text">
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
+            <img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="Buscar">
+        </button>
+
+        <div class="caixa-media">
+
+            <h2 class="cidade">--</h2>
+
+            <p class="tempo">--</p>
+            <p class="max">--</p>
+            <p class="min">--</p>
+
+            <div class="caixa-menor">
+                <img class="img-previsao">
+                <p class="texto-previsao">--</p>
+            </div>
+
+            <p class="umidade">--</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://github.com/gsilvalourenco" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/guilherme-louren%C3%A7o-a229a0266/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+        <p class="footer-logo">Previsão do Tempo</p>
+        <p class="copyrigth"> Desenvolvido por &copy; Guilherme Lourenço</p>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/a747b09475.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

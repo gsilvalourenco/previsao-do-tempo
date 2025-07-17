@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-image: url("./img/fundo.webp");
     background-size: cover;
     flex-direction: column;
 }
